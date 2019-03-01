@@ -1,0 +1,27 @@
+{
+	"good" : [
+		{
+			"id" : "11",
+			"name" : "Apple iPad mini 4 平板电脑 7.9英寸（128G WLAN版/A8芯片/Retina显示屏/Touch ID技术 MK9Q2CH）金色",
+			"price" : "2638.00",
+			"src" : "more_item1.jpg"
+		},
+		{
+			"id" : "12",
+			"name" : "AMAZFIT 米动手表青春版 华米科技出品 智能手表 运动手表 心率 睡眠 GPS 蓝牙 通知 曜石黑",
+			"price" : "359.00",
+			"src" : "more_item2.jpg"
+		}
+	],
+	"act" : [
+		{
+			"src" : "more_act_item1.jpg"	
+		},
+		{
+			"src" : "more_act_item2.jpg"	
+		},
+		{
+			"src" : "more_act_item3.jpg"	
+		}
+	]
+}

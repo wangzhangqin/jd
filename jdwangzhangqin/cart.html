@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+	</head>
+	<body>
+		<div id="shortcut">
+				<div class="wi">
+					<ul class="fl" >
+						<li class="shortcut_btn" id="ttbar-selectcity">
+							<div class="dt cw_icon ui-areamini-text-wrap" id="select-city">
+								<i class="iconfont icon-dingwei"></i>
+								<span>北京</span>
+							</div>
+						</li>
+					</ul>
+					<ul class="fr">
+						<li class="shortcut_btn" id="tbar_login">
+							<a href="login.html" class="login-link">你好，请登录</a>
+							&nbsp;&nbsp;
+							<a href="regist.html" class="register style-red">免费注册</a>
+							<!--<div class="dt cw_icon">
+								<i class="userico_ico"></i>
+								<a href="javascript:;" class="nickname">jd_6a8ecd124...</a>
+								<i class="iconfont icon-jiantouxia"></i>
+							</div>-->
+						</li>
+						<li class="spacer" style="margin: 0 5px;">|</li>
+						<li class="shortcut_btn">
+							<div class="dt">
+								<a href="">我的订单</a>
+							</div>
+						</li>
+						<li class="spacer" style="margin: 0 5px;">|</li>
+						<li class="shortcut_btn" id="myjd">
+							<div class="dt cw-icon">
+								<a href="">我的京东</a>
+								<i class="iconfont icon-jiantouxia"></i>
+							</div>
+						</li>
+						<li class="spacer" style="margin: 0 5px;">|</li>
+						<li class="shortcut_btn">
+							<div class="dt">
+								<a href="">京东会员</a>
+							</div>
+						</li>
+						<li class="spacer" style="margin: 0 5px;">|</li>
+						<li class="shortcut_btn company">
+							<div class="dt cw-icon">
+								<a href="">企业采购</a>
+								<i class="iconfont icon-jiantouxia"></i>
+							</div>
+						</li>
+						<li class="spacer" style="margin: 0 5px;">|</li>
+						<li class="shortcut_btn">
+							<div class="dt cw-icon">
+								客户服务
+								<i class="iconfont icon-jiantouxia"></i>
+							</div>
+							<div class="dd downlayer"></div>
+						</li>
+						<li class="spacer" style="margin: 0 5px;">|</li>
+						<li class="shortcut_btn">
+							<div class="dt cw-icon">
+								网站导航
+								<i class="iconfont icon-jiantouxia"></i>
+							</div>
+							<div class="dd downlayer"></div>
+						</li>
+						<li class="spacer" style="margin: 0 5px;">|</li>
+						<li class="shortcut_btn mobile">
+							<div class="dt mobile_text">
+								手机京东
+							</div>
+							
+						</li>
+					</ul>
+				</div>
+		</div>
+		<div class="head wi">
+			<div class="logoCon w">
+					<div id="logo">
+						<a href="index.html" class="logo">
+							<img src="images/jdlogo-201708-@1x.png" alt="" style="width: 134px;height: 42px;"/>
+						</a>
+					</div>
+					<div id="search">
+						<ul id="shelper" style="display: none;">
+								<li title="bb霜" id="d_0">
+									<div class="search_item">aaa</div>
+									<div class="search_count">搜索历史</div>
+								</li>
+								<li title="bb霜" id="d_0">
+									<div class="search_item">bbb</div>
+									<div class="search_count">搜索历史</div>
+								</li>
+								<li title="bb霜" id="d_0">
+									<div class="search_item">ccc</div>
+									<div class="search_count">搜索历史</div>
+								</li>
+								<li title="bb霜" id="d_0">
+									<div class="search_item">ddd</div>
+									<div class="search_count">搜索历史</div>
+								</li>
+								<li class="close">全部删除</li>
+						</ul>
+						<div class="form">
+							<input type="text" class="text" placeholder="自营"/>
+							<button class="button">
+								<i></i>
+								搜索
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cart" id="container">
+			<div class="wi">
+				<div class="nologin-tip">
+					<span class="wicon"></span>
+					您还没有登录！登录后购物车的商品将保存到您账号中
+					<a href="" class="btn-1 ml10">立即登录</a>
+				</div>
+				<div class="cart-filter-bar">
+					<ul class="switch-cart">
+						<li class="switch-cart-item curr">
+							<a href="">
+								<em>全部商品</em>
+								<span class="number">4</span>
+							</a>
+						</li>
+					</ul>
+					<div class="clr"></div>
+					<div class="w-line">
+						<div class="floater" style="width: 79px; left: 0;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="cart-wrap">
+				<div class="wi">
+					<div class="jd-cart">
+						<div class="cart-main">
+							<div class="cart-thead">
+								<div class="t-checkbox column">
+									<div class="cart-checkbox">
+										<input type="checkbox" name="toggle-checkboxes" class="jdcheckbox all"/>
+										<label for="">勾选全部商品</label>
+									</div>
+									全选
+								</div>
+								<div class="t-goods column">商品</div>
+								<div class="t-props column"></div>
+								<div class="t-price column">单价</div>
+								<div class="t-quantity column">数量</div>
+								<div class="t-sum column">小计</div>
+								<div class="t-action column">操作</div>
+							</div>
+							<div class="card-list">
+								<div class="cart-item-list">
+									<div class="cart-tbody">
+										<div class="item-list">
+											<!--<div class="item-single item-item">
+												<div class="item-form" style="height: 107px;">
+													<div class="p-checkbox cell">
+														<div class="cart-checkbox">
+															<input type="checkbox" name="toggle-checkboxes" class="jdcheckbox"/>
+															<label for="">勾选全部商品</label>
+														</div>
+													</div>
+													<div class="p-goods cell">
+														<div class="goods-item">
+															<div class="p-img">
+																<a href=""><img src=""/></a>
+															</div>
+															<div class="item-msg">
+																<div class="p-name">
+																	<a href="">【领券立减】Apple iPad 平板电脑 2018年新款9.7英寸（32G WLAN版/A10 芯片/Retina显示屏/Touch ID技术 MRJN2CH/A）金色</a>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="p-props cell">
+														<div class="props-txt">金色</div>
+														<div class="props-txt">WIFI版32G</div>
+													</div>
+													<div class="p-price-new cell">
+														¥2555.00
+													</div>
+													<div class="p-quantity cell">
+														<div class="quantity-form">
+															<a href="" class="decrement ">-</a>
+															<input type="text" class="itxt" value="6"/>
+															<a href="" class="increment">+</a>
+														</div>
+													</div>
+													<div class="p-sum cell">
+														<strong>¥16728.00</strong>
+													</div>
+													<div class="p-ops cell">
+														<a href="">删除</a>
+													</div>
+												</div>
+											</div>-->
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="cart-floatbar">
+						<div class="options-box">
+							<div class="select-all">
+								<div class="cart-checkbox">
+										<input type="checkbox" name="toggle-checkboxes" class="jdcheckbox all"/>
+										<label for="">勾选全部商品</label>
+									</div>
+									全选
+							</div>
+							<div class="toolbar-right">
+								<div class="normal">
+									<div class="comm-right">
+										<div class="btn-area">
+											<a href="" class="submit-btn">去结算</a>
+										</div>
+										<div class="price-sum">
+											<div>
+												<span class="txt">总价：</span>
+												<span class="price sumPrice">
+													<em>¥0</em>
+												</span>
+											</div>
+										</div>
+										<div class="amount-sum">
+											已选择
+											<em>0</em>
+											件商品
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+			<div id="ser">
+			<div class="ww">
+				<ol class="slogen">
+					<li class="item fore0">
+						<i>多</i>
+						品类齐全，轻松购物
+					</li>
+					<li class="item fore1">
+						<i>快</i>
+						多仓直发，极速配送
+			
+					</li>
+					<li class="item fore2">
+						<i>好</i>
+						正品行货，精致服务
+			
+					</li>
+					<li class="item fore3">
+						<i>省</i>
+						天天低价，畅选无忧
+			
+					</li>
+				</ol>
+			</div>
+			<div class="jd-help">
+				<div class="ww">
+					<div class="wrap">
+						<dl class="fore1">
+							<dt>购物指南</dt>
+							<dd><a href="">购物流程</a></dd>
+							<dd><a href="">会员介绍</a></dd>
+							<dd><a href="">生活旅行/团购</a></dd>
+							<dd><a href="">常见问题</a></dd>
+							<dd><a href="">大家电</a></dd>
+							<dd><a href="">联系客服</a></dd>
+						</dl>
+						<dl class="fore1">
+							<dt>购物指南</dt>
+							<dd><a href="">购物流程</a></dd>
+							<dd><a href="">会员介绍</a></dd>
+							<dd><a href="">生活旅行/团购</a></dd>
+							<dd><a href="">常见问题</a></dd>
+							<dd><a href="">大家电</a></dd>
+							<dd><a href="">联系客服</a></dd>
+						</dl>
+						<dl class="fore1">
+							<dt>购物指南</dt>
+							<dd><a href="">购物流程</a></dd>
+							<dd><a href="">会员介绍</a></dd>
+							<dd><a href="">生活旅行/团购</a></dd>
+							<dd><a href="">常见问题</a></dd>
+							<dd><a href="">大家电</a></dd>
+							<dd><a href="">联系客服</a></dd>
+						</dl>
+						<dl class="fore1">
+							<dt>购物指南</dt>
+							<dd><a href="">购物流程</a></dd>
+							<dd><a href="">会员介绍</a></dd>
+							<dd><a href="">生活旅行/团购</a></dd>
+							<dd><a href="">常见问题</a></dd>
+							<dd><a href="">大家电</a></dd>
+							<dd><a href="">联系客服</a></dd>
+						</dl>
+						<dl class="fore1">
+							<dt>购物指南</dt>
+							<dd><a href="">购物流程</a></dd>
+							<dd><a href="">会员介绍</a></dd>
+							<dd><a href="">生活旅行/团购</a></dd>
+							<dd><a href="">常见问题</a></dd>
+							<dd><a href="">大家电</a></dd>
+							<dd><a href="">联系客服</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="ww">
+				<div class="copyright_link">
+					<p>
+						<a href="">关于我们</a>
+						<span class="copyright_splite">|</span>
+						<a href="">联系我们</a>
+						<span class="copyright_splite">|</span>
+						<a href="">联系客服</a>
+						<span class="copyright_splite">|</span>
+						<a href="">合作招商</a>
+						<span class="copyright_splite">|</span>
+						<a href="">商家帮助</a>
+						<span class="copyright_splite">|</span>
+						<a href="">营销中心</a>
+						<span class="copyright_splite">|</span>
+						<a href="">手机京东</a>
+						<span class="copyright_splite">|</span>
+						<a href="">友情链接</a>
+						<span class="copyright_splite">|</span>
+						<a href="">销售联盟</a>
+						<span class="copyright_splite">|</span>
+						<a href="">京东社区</a>
+						<span class="copyright_splite">|</span>
+						<a href="">风险监测</a>
+						<span class="copyright_splite">|</span>
+						<a href="">隐私政策</a>
+						<span class="copyright_splite">|</span>
+						<a href="">京东公益</a>
+						<span class="copyright_splite">|</span>
+						<a href="">English Site</a>
+						<span class="copyright_splite">|</span>
+						<a href="">Media & IR</a>
+					</p>
+				</div>
+				<div class="copyright_info">
+					<p>
+						<a href="">京公网安备 11000002000088号</a>
+						<span class="copyright_splite">|</span>
+						<span>京ICP证070359号</span>
+						<span class="copyright_splite">|</span>
+						<a href="">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+						<span class="copyright_splite">|</span>
+						<span>新出发京零 字第大120007号</span>
+					</p>
+					<p>
+						<span>互联网出版许可证编号新出网证(京)字150号</span>
+						<span class="copyright_splite">|</span>
+						<a href="">出版物经营许可证</a>
+						<span class="copyright_splite">|</span>
+						<a href="">网络文化经营许可证京网文[2014]2148-348号</a>
+						<span class="copyright_splite">|</span>
+						<span>违法和不良信息举报电话：4006561155</span>
+					</p>
+					<p>
+						<span class="copy_text">
+							Copyright © 2004 - 
+							<em class="copyright_year">2019</em>
+							  京东JD.com 版权所有
+						</span>
+						<span class="copyright_splite">|</span>
+						<span>消费者维权热线：4006067733</span>
+						<a href="">经营证照</a>
+						<span class="copyright_splite">|</span>
+						<span>(京)网械平台备字(2018)第00003号</span>
+						<span class="copyright_splite">|</span>
+						<a href="">营业执照</a>
+					</p>
+					<!--<p class="mod_copyright_inter">
+						<a href="">
+							<i class="mod_copyright_inter_ico mod_copyright_inter_ico_global"></i>
+							<span></span>
+						</a>
+					</p>-->
+					<p>
+						<span>京东旗下网站：</span>
+						<a href="">京东钱包</a>
+						<span class="copyright_splite">|</span>
+						<a href="">京东云</a>
+					</p>
+				</div>
+				<p class="copyright_auth">
+					<a href="" class="copyright_auth_ico copyright_auth_ico2"></a>
+					<a href="" class="copyright_auth_ico copyright_auth_ico3"></a>
+					<a href="" class="copyright_auth_ico copyright_auth_ico4"></a>
+					<a href="" class="copyright_auth_ico copyright_auth_ico5"></a>
+					<a href="" class="copyright_auth_ico copyright_auth_ico6"></a>
+				</p>
+			</div>
+		</div>
+		</div>
+			</div>
+		<div class="ui-dialog" style="display:none;position: absolute;width: 400px;z-index: 10000;left: 50%;margin-left: -200px;top: 50%;margin-top: -100px;">
+			<div class="ui-dialog-title" style="width: 380px;">
+				<span>删除</span>
+			</div>
+			<div class="ui-dialog-content" style="width: 380px;height: 128px;">
+				<div class="tip-box icon-box">
+					<span class="m-icon warn-icon"></span>
+					<div class="item-fore">
+						<h3>删除商品</h3>
+						<div>您可以选择移到关注，或删除商品。</div>
+					</div>
+					<div class="op-btns ac">
+						<a href="" class="btn-9">删除</a>
+						<a href="" class="btn-1">移到我的关注</a>
+					</div>
+				</div>
+			</div>
+			<a href="javascript:;" class="ui-dialog-close"></a>
+		</div>
+		<div class="ui-mask" style="display:none;z-index:998;position: absolute;width: 100%;height: 100%;background: black;opacity: 0.15;top: 0;left: 0;"></div>
+	</body>
+	<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/jquery-1.11.1.js"></script>
+	
+</html>

@@ -1,0 +1,369 @@
+.main{
+	padding-bottom: 20px;
+}
+.success-wrap{
+	height: 145px;
+	margin-bottom: 20px;
+	background: #f5f5f5;
+}
+.succeed-box .success-lcol{
+	float: left;
+}
+.succeed-box .success-top{
+	margin: 20px 0;
+	position: relative;
+	padding-left: 35px;
+}
+.succeed-box .success-top .succ-ico{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	display: block;
+	overflow: hidden;
+	background: url(../images/addtocart-icons.png) 0 0 no-repeat;
+}
+.succeed-box .success-top h3{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #71b247;
+}
+.succeed-box .p-img{
+	float: left;
+	width: 60px;
+	margin-right: 10px;
+	border: 1px solid #e8e8e8;
+}
+.succeed-box .p-info{
+	float: left;
+	width: 520px;
+	margin: 0;
+}
+.succeed-box .p-name a{
+	color: #333;
+}
+.succeed-box .p-name{
+	width: 100%;
+	line-height: 28px;
+	font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.succeed-box .p-extra{
+	display: block;
+	color: #aaa;
+}
+.succeed-box .p-extra .txt{
+	float: left;
+	max-width: 135px;
+	margin-right: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.succeed-box .success-btns{
+	float: right;
+	font-size: 0;
+	overflow: hidden;
+}
+.succeed-box .success-ad{
+	width: 106px;
+	height: 70px;
+	float: right;
+	margin: 10px 0;
+}
+.succeed-box .btn-tobback{
+	padding: 0 30px;
+	margin-right: 10px;
+	background: #fff;
+	color: #E2231A;
+	border: 1px solid #fff;
+}
+.succeed-box .btn-addtocart, .succeed-box .btn-tobback, .succeed-box .btn-viewcart{
+	display: inline-block;
+	height: 34px;
+	line-height: 36px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.succeed-box .btn-addtocart{
+	width: 136px;
+	position: relative;
+	padding-left: 30px;
+	background: #E2231A;
+	border: 1px solid #E2231A;
+	color: #fff;
+}
+.succeed-box .btn-addtocart b{
+	position: absolute;
+	top: 8px;
+	right: 15px;
+	width: 10px;
+	height: 20px;
+	overflow: hidden;
+	background: url(../images/addtocart-icons.png) -20px -81px no-repeat;
+}
+.clr{
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+#similar{
+	height: 330px;
+	position: relative;
+	overflow: hidden;
+}
+.mt{
+	margin-bottom: 10px;
+	display: block;
+	height: 18px;
+}
+.m1 .mt h3{
+	float: left;
+	font-size: 14px;
+	color: #666;
+}
+.s-panel{
+	height: 290px;
+	width: 1211px;
+}
+.goods-list ul{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.goods-list li{
+	float: left;
+	margin-bottom: 40px;
+}
+.goods-list .item{
+	width: 270px;
+	position: relative;
+	background: #fff;
+	margin: 0 40px 0 0;
+	overflow: hidden;
+}
+.goods-list .item-last{
+	margin-right: 0;
+}
+.goods-list .p-img{
+	width: 98px;
+	border: 1px solid #eee;
+	float: left;
+	margin-right: 10px;
+}
+.goods-list .p-name{
+	width: 160px;
+	height: 36px;
+	line-height: 18px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 4px;
+}
+.goods-list .p-name a{
+	color: #333;
+}
+.goods-list .p-price{
+	width: 160px;
+	height: 19px;
+	text-align: left;
+	margin-bottom: 11px;
+	overflow: hidden;
+	line-height: 19px;
+	font-size: 14px;
+}
+.goods-list .p-price strong{
+	font-size: 14px;
+	color: #d91f20;
+	font-weight: 400;
+}
+.goods-list .p-btn{
+	float: left;
+	text-align: center;
+}
+.goods-list .btn-append{
+	padding: 0 10px;
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	color: #333;
+	text-align: center;
+}
+.goods-list .btn-append b{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	background-position: 0 -57px;
+	background-repeat:no-repeat;
+	overflow: hidden;
+	background-image: url(../images/addtocart-icons.png);
+}
+.s-panel-nav{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	display: block;
+	height: auto;
+	text-align: center;
+	line-height: 30px;
+}
+
+.m1 .s-panel-nav .s-nav-item{
+	padding: 4px 9px;
+	margin: 0 8px;
+	border: 1px solid #fff;
+	display: inline;
+	line-height: 12px;
+	border-radius: 15px;
+	background-color: #f5f5f5;
+	line-height: 40px;
+}
+.m1 .s-panel-nav .curr{
+	color: #e4393c;
+	border-color: #e4393c;
+	background-color: #fff;
+	border-radius: 15px;
+}
+
+#ser{
+	padding-bottom: 18px;
+	background: #eaeaea;
+	overflow: hidden;
+}
+#ser .slogen{
+	padding: 30px 0 30px 65px;
+	margin-right: -23px;
+	height: 42px;
+	position: relative;
+	overflow: hidden;
+}
+#ser .slogen .item{
+	width: 292px;
+	float: left;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+  position: relative;
+  font-weight: 700;
+  text-indent: 46px;
+  color: #444;
+}
+#ser .slogen .item i{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 42px;
+	text-indent: -9999px;
+	background-image: url(../images/ico_service.png);
+	background-position: 0 0 ;
+	background-repeat: no-repeat;
+}
+#ser .slogen .fore1 i{
+	background-position: 0 -43px;
+}
+#ser .slogen .fore2 i{
+	background-position: 0 -86px;
+}
+#ser .slogen .fore3 i{
+	background-position: 0 -129px;
+}
+#ser .jd-help{
+	border-bottom: solid 1px #dedede;
+	border-top: solid 1px #dedede;
+}
+#ser .wrap{
+	margin-right: -140px;
+	padding: 20px 0 20px 65px;
+		height: 160px;
+}
+.wrap dl{
+	width: 255px;
+	float: left;
+	line-height: 22px;
+}
+#ser dt{
+	padding-bottom: 6px;
+	font-weight: 700;
+	font-size: 14px;
+	color: #777;
+	height: 22px;
+}
+#ser dd{
+	font-size: 12px;
+	color: #666;
+	height: 22px;
+	overflow: hidden;
+}
+#footer{
+	padding-bottom: 30px;
+	text-align: center;
+	background: #eaeaea;
+}
+#footer .copyright_link p{
+	font-size: 0;
+}
+#footer .copyright_link p a,#footer .copyright_link p span{
+	font-size: 12px;
+}
+#footer .copyright_splite{
+	margin: 0 10px;
+	color: #ccc;
+}
+#footer .copyrightinfo a{
+	color: #999;
+}
+#footer .mod_copyright_inter_ico_global{
+	width: 15px;
+	height: 12px;
+	background-position: 0 0;
+	margin-top: -1px;
+}
+#footer .mod_copyright_inter_ico{
+	display: inline-block;
+	vertical-align: -1px;
+	margin-right: 10px;
+	background-repeat:no-repeat ;
+}
+#footer .copyright_info{
+	padding: 10px 0;
+	line-height: 22px;
+	color: #999;
+}
+#footer .copyright_auth_ico{
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 3px;
+	width: 103px;
+	height: 32px;
+	background-image: url(../images/ico_footer.png);
+	line-height: 1000px;
+}
+#footer .copyright_auth_ico2{
+	background-position: -104px 0;
+}
+#footer .copyright_auth_ico3{
+	background-position: 0 -33px;
+}
+#footer .copyright_auth_ico4{
+	background-position: -104px -33px;
+}
+#footer .copyright_auth_ico5{
+	background-position: 0 -66px;
+}
+#footer .copyright_auth_ico6{
+	background-position: -104px -66px;
+}
+.ww{
+	width: 1210px;
+}

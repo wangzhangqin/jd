@@ -1,0 +1,26 @@
+{
+	"list" : [
+		{
+			"bsrc" : ["big-img1" , "big-img2"],
+			"ssrc" : ["preview1-small1", "preview1-small2"],
+			"lsrc" : ["spec-item1","spec-item2"],
+			"url" : "//img10.360buyimg.com/cms/s60x60_jfs/t18595/339/1052523652/77250/b4afe949/5abb0ec6N6dbbddf1.jpg",
+			"id" : "11",
+			"name" : "Apple iPad mini 4 平板电脑 7.9英寸（128G WLAN版/A8芯片/Retina显示屏/Touch ID技术 MK9Q2CH）金色",
+			"price" : "2638.00",
+			"color" : "金",
+			"size" : "WIFI版128G"
+		},
+		{
+			"bsrc" : ["big1-img1" , "big1-img2"],
+			"ssrc" : ["preview2-small1", "preview2-small2"],
+			"lsrc" : ["spec1-item1","spec1-item2"],
+			"id" : "12",
+			"url" : "//img10.360buyimg.com/cms/s60x60_jfs/t1/29145/9/3410/155632/5c273309E81f27ecf/bfff56a894c47a0d.jpg",
+			"name" : "AMAZFIT 米动手表青春版 华米科技出品 智能手表 运动手表 心率 睡眠 GPS 蓝牙 通知 曜石黑",
+			"price" : "359.00",
+			"color" : "曜石黑",
+			"size" : "米动手表青春版"
+		}
+	]
+}
